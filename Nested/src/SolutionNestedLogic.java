@@ -1,3 +1,5 @@
+package Nested.src;
+
 import java.util.Scanner;
 
 public class SolutionNestedLogic {

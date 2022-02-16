@@ -1,3 +1,5 @@
+package Bitwise.src;
+
 import java.util.Scanner;
 
 public class SolutionBitwise {

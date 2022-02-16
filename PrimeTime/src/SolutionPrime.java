@@ -1,3 +1,5 @@
+package PrimeTime.src;
+
 import java.util.Scanner;
 
 public class SolutionPrime {
@@ -19,7 +21,8 @@ public class SolutionPrime {
 
             if (n >= 2 && isPrime(n))
                 System.out.println("Prime");
-            else System.out.println("Not prime");
+            else
+                System.out.println("Not prime");
         }
 
         in.close();

@@ -1,3 +1,5 @@
+package PrimeTime.src;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -6,7 +8,7 @@ import java.util.regex.Pattern;
 
 public class SolutionReEx {
     public static void main(String[] args) {
-        Scanner scan  = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         int N = scan.nextInt();
 
         String emailRegex = ".+@gmail\\.com$";
@@ -28,4 +30,3 @@ public class SolutionReEx {
         list.forEach(System.out::println);
     }
 }
-

@@ -1,3 +1,5 @@
+package TestCode.src;
+
 import java.util.*;
 
 public class Solution {
@@ -10,7 +12,7 @@ public class Solution {
 
     static class TestDataUniqueValues {
         public static int[] get_array() {
-            return new int[]{11, 3, 7, 2, 4, 86, 13};
+            return new int[] { 11, 3, 7, 2, 4, 86, 13 };
         }
 
         public static int get_expected_result() {
@@ -20,7 +22,7 @@ public class Solution {
 
     static class TestDataExactlyTwoDifferentMinimums {
         public static int[] get_array() {
-            return new int[]{13, 12, 321, 61, 67, 34, 12};
+            return new int[] { 13, 12, 321, 61, 67, 34, 12 };
         }
 
         public static int get_expected_result() {
@@ -40,7 +42,6 @@ public class Solution {
         }
         return min_idx;
     }
-
 
     public static void TestWithEmptyArray() {
         try {

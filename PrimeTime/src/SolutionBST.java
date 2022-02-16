@@ -1,3 +1,5 @@
+package PrimeTime.src;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
@@ -21,8 +23,10 @@ class SolutionBST {
             Node curr = queue.remove();
             System.out.print(curr.data + " ");
 
-            if (curr.left != null) queue.add(curr.left);
-            if (curr.right != null) queue.add(curr.right);
+            if (curr.left != null)
+                queue.add(curr.left);
+            if (curr.right != null)
+                queue.add(curr.right);
         }
     }
 
