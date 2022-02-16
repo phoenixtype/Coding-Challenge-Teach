@@ -1,3 +1,5 @@
+package JumpingOnTheCloud.src;
+
 import java.util.Scanner;
 
 public class JumpingOnTheClouds {

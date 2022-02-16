@@ -1,3 +1,5 @@
+package Regex.src;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Scanner;
@@ -7,7 +9,7 @@ import java.util.regex.Pattern;
 public class SolutionRegex {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int N  = scan.nextInt();
+        int N = scan.nextInt();
 
         String emailRegEx = ".@gmail\\.com$";
         Pattern pattern = Pattern.compile(emailRegEx);
