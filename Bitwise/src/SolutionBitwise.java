@@ -24,5 +24,6 @@ public class SolutionBitwise {
 
             System.out.println(max);
         }
+        in.close();
     }
 }

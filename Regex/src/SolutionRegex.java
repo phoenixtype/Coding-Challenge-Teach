@@ -17,15 +17,16 @@ public class SolutionRegex {
         ArrayList<String> list = new ArrayList<>();
 
         for (int i = 0; i < N; i++) {
-            String name = scan.next();
-            String email = scan.next();
-            Matcher matcher = pattern.matcher(email);
+            String firstName = scan.next();
+            String emailID = scan.next();
+            Matcher matcher = pattern.matcher(emailID);
 
             if (matcher.find()) {
-                list.add(name);
+                list.add(firstName);
             }
 
         }
+
         scan.close();
 
         Collections.sort(list);
